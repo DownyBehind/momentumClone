@@ -7,7 +7,7 @@ function getTime() {
   const hours = data.getHours();
   const seconds = data.getSeconds();
   //clockTitle.innerText = `${hours}:${minutes}:${seconds}`;
-
+  /*
   clockTitle.innerText =
     seconds < 10
       ? hours < 10
@@ -16,6 +16,10 @@ function getTime() {
           : `0${hours}:${minutes}:0${seconds}`
         : `${hours}:${minutes}:0${seconds}`
       : `${hours}:${minutes}:${seconds}`;
+*/
+  clockTitle.innerText = `${hours < 10 ? `0${hours}` : hours}:${
+    minutes < 10 ? `0${minutes}` : minutes
+  }:${seconds < 10 ? `0${seconds}` : seconds}`;
 }
 
 function init() {

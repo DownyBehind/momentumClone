@@ -3,4 +3,27 @@ h1 {
   font-size: 100px;
   text-align: center;
   margin-top: 300px;
+  margin-bottom: 20px;
+}
+
+.js-form {
+  color: lightblue;
+  text-align: center;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+  color: lightblue;
+}
+
+body {
+  background-color: lightcyan;
 }
