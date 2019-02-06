@@ -1,5 +1,5 @@
 h1 {
-  color: lightblue;
+  color: black;
   font-size: 100px;
   text-align: center;
   margin-top: 300px;
@@ -7,7 +7,7 @@ h1 {
 }
 
 .js-form {
-  color: lightblue;
+  color: black;
   text-align: center;
 }
 
@@ -22,11 +22,11 @@ h1 {
   font-size: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: lightblue;
+  color: black;
 }
 
 body {
-  background-color: lightcyan;
+  background-color: lightgray;
 }
 
 .js-toDoForm {
@@ -36,5 +36,24 @@ body {
 
 .js-toDoList {
   text-align: center;
-  color: lightblue;
+  color: black;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
 }
