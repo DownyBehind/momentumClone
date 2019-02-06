@@ -21,9 +21,20 @@ h1 {
   text-align: center;
   font-size: 40px;
   margin-top: 20px;
+  margin-bottom: 20px;
   color: lightblue;
 }
 
 body {
   background-color: lightcyan;
+}
+
+.js-toDoForm {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.js-toDoList {
+  text-align: center;
+  color: lightblue;
 }
