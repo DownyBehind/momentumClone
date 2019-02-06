@@ -30,7 +30,7 @@ function handleGeoSucces(position) {
   };
   // console.log(position);
   saveCoorda(coordsObj);
-  getWheather(latitude, longitude);
+  getWeather(latitude, longitude);
 }
 
 function handleGeoError() {
